@@ -1,0 +1,96 @@
+/* Common Css */
+* , *::after , *:before{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1 , h2, h3 , h4 , h5 , h6{
+    font-family: sans-serif;
+}
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+#caltulator_area .container {
+    background-color: #9defd7;
+    width: 562px;
+    margin: 200px auto;
+    border-radius: 7px;
+    
+}
+.header_text_area {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #b3ecf5a3;
+    box-shadow: 0px 1px tomato;
+}
+.header_text_area h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: system-ui;
+    padding: 10px 0;
+    color: orangered;
+}
+.calculator_body {
+    width: 140px;
+    display: inline-block;
+    margin-left: 34px;
+}
+.calculator_body label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    line-height: 29px;
+}
+input[type='text']{
+    width: 140px;
+    border: none;
+    outline: none;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(171, 171, 171);
+}
+input[type='text']:focus{
+    border: 1px solid orangered;  
+    box-shadow: 1px 2px 8px black; 
+}
+
+button.btn{
+    border: none;
+    outline: none;
+    padding: 12px 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: #F44336;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .3s;
+}
+button.btn:focus{
+    box-shadow: 1px 2px 8px black;
+}
+#age {
+    padding: 15px 10px;
+    font-size: 14px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #f44336;
+}

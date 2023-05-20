@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="icon" href="img/digital.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="caltulator_area">
+        <div class="container">
+            <div class="calculator_wrapper">
+                <div class="header_text_area">
+                    <h3>Calculate Your Age</h3>
+                </div>
+                <div class="calculator_body">
+                    <label name="date" for="date">Date</label>
+                    <input type="text" name="date" id="date" placeholder="dd" required>
+                </div>
+                <div class="calculator_body">
+                    <label name="month" for="month">month</label>
+                    <input type="text" name="month" id="month" placeholder="mm" required>
+                </div>
+                <div class="calculator_body">
+                    <label name="year" for="year">year</label>
+                    <input type="text" name="year" id="year" placeholder="yyyy" required>
+                </div>
+            </div>
+            <button type="button" onclick="age()" class="btn">Calculate Age</button>
+            <div id= "age">
+                <!-- the output will show here -->
+            </div>
+
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
